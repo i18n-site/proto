@@ -1,0 +1,7 @@
+```proto
+syntax = "proto3";
+
+package api;
+
+// message Todo { }
+```

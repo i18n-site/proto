@@ -1,0 +1,13 @@
+```proto
+syntax = "proto3";
+
+package api;
+
+/// nodefault
+message Captcha
+{
+  uint64 id = 1;
+  bytes img = 2;
+  repeated string svg_li = 3;
+}
+```
