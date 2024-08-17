@@ -1,0 +1,16 @@
+{
+  "name": "@5-/pay",
+  "version": "0.2.7",
+  "repository": "https://github.com/3TiSite/proto.git",
+  "homepage": "https://github.com/3TiSite/proto/tree/main/pay",
+  "author": "i18n.site@gmail.com",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./index.js",
+    "./*": "./*"
+  },
+  "peerDependencies": {
+    "@3-/proto": "^2.0.43"
+  },
+  "type": "module"
+}

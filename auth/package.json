@@ -1,0 +1,17 @@
+{
+  "name": "@5-/auth",
+  "version": "0.2.8",
+  "repository": "https://github.com/3TiSite/proto.git",
+  "homepage": "https://github.com/3TiSite/proto/tree/main/auth",
+  "author": "i18n.site@gmail.com",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./index.js",
+    "./*": "./*"
+  },
+  "peerDependencies": {
+    "@3-/proto": "^2.0.43",
+    "@8p/captcha": "^0.3.2"
+  },
+  "type": "module"
+}

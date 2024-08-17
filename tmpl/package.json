@@ -1,0 +1,17 @@
+{
+  "name": "@5-/tmpl",
+  "version": "0.1.2",
+  "repository": "https://atomgit.com/i18n/proto.git",
+  "homepage": "https://atomgit.com/i18n/proto/tree/dev/tmpl",
+  "author": "i18n.site@gmail.com",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./index.js",
+    "./*": "./*"
+  },
+  "peerDependencies": {
+    "@3-/proto": "^2.0.40",
+    "@8p/captcha": "^0.1.64"
+  },
+  "type": "module"
+}
